@@ -1,0 +1,103 @@
+<template>
+  <view class="wrapper">
+    <view  c-for="{{list}}" c-for-index="idx" c-for-item="itemName" data-index="{{idx}}" class="box {{itemName.className}}" style="transform: translate({{itemName.transform.x}}, 0);" >
+      <text class="txt">{{idx}}</text>
+      <view class="remove-btn" data-index="{{idx}}">
+        <text class="rm">删</text>
+      </view>
+    </view>
+  </view>
+</template>
+
+<script>
+    class Index  {
+        data = {
+            list: [
+                {
+                    className: 'inner-first',
+                    transform: {
+                        y: 0,
+                        x: 0
+                    }
+                },
+                {
+                    className: 'inner-second',
+                    transform: {
+                        y: 0,
+                        x: 0
+                    }
+
+                },
+                {
+                    className: 'inner-third',
+                    transform: {
+                        y: 0,
+                        x: 0
+                    }
+
+                },
+                {
+                    className: 'inner-fouth',
+                    transform: {
+                        y: 0,
+                        x: 0
+                    }
+
+                }
+            ],
+        }
+        methods = {
+
+        }
+    }
+
+    export default new Index();
+</script>
+<style>
+  .wrapper{
+    flex-direction: col;
+    justify-content: space-around;
+    height: 1200cpx;
+  }
+  .inner-first{
+    background: red;
+
+  }
+  .inner-second{
+    background: yellow;
+  }
+  .inner-third{
+    background: blue;
+  }
+  .inner-fouth{
+    background: green;
+  }
+  .box{
+    height: 200cpx;
+  }
+  .txt{
+    text-align: center;
+    line-height: 50cpx;
+    height: 50cpx;
+  }
+  .remove-btn{
+    height: 50cpx;
+    width: 50cpx;
+    border: 1px solid hotpink;
+    font-size: 10cpx;
+    border-radius: 50cpx;
+    transform: translate(780cpx, 0)
+  }
+  .rm{
+    text-align: center;
+    line-height: 50cpx;
+    color: hotpink;
+  }
+</style>
+<script cml-type="json">
+{
+  "base": {
+    "usingComponents": {}
+  }
+}
+</script>

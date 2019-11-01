@@ -1,0 +1,39 @@
+<view class="container  cml-base cml-view cml-70c0e066">
+    <view class=" cml-base cml-view cml-70c0e066"><cml-buildin-row height="{{80}}" class=" cml-base cml-row cml-70c0e066">
+        <view class=" cml-base cml-view cml-70c0e066"><cml-buildin-col width="{{240}}" height="{{80}}" background-color="#ddd" class=" cml-base cml-col cml-70c0e066">
+        <view class=" cml-base cml-view cml-70c0e066"></view>
+        </cml-buildin-col></view>
+        <view class=" cml-base cml-view cml-70c0e066"><cml-buildin-col width="{{510}}" height="{{80}}" background-color="#bbb" class=" cml-base cml-col cml-70c0e066">
+        <view class=" cml-base cml-view cml-70c0e066"></view>
+        </cml-buildin-col></view>
+    </cml-buildin-row></view>
+    <view class=" cml-base cml-view cml-70c0e066"><cml-buildin-scroller scroll-direction="{{scrollDirection}}" bottom-offset="{{bottomOffset}}" onScrolltobottom="_cmlEventProxy" data-eventscrolltobottom="{{['onBottom']}}" onOnscroll="_cmlEventProxy" data-eventonscroll="{{['onScroll']}}" height="{{-1}}" class=" cml-base cml-scroller cml-70c0e066">
+        <view class=" cml-base cml-view cml-70c0e066">
+        <view class="container  cml-base cml-view cml-70c0e066"><swiper class="container  cml-base cml-carousel cml-70c0e066" indicator-dots="{{true}}" current="{{1}}" circular="{{true}}">
+            <swiper-item class=" cml-base cml-carousel-item cml-70c0e066">
+                <view class="carousel-item  cml-base cml-view cml-70c0e066" style="background-color:#EBDEAA"></view>
+            </swiper-item>
+            <swiper-item class=" cml-base cml-carousel-item cml-70c0e066">
+                <view class="carousel-item  cml-base cml-view cml-70c0e066" style="background-color:#E3EDCD"></view>
+            </swiper-item>
+            <swiper-item class=" cml-base cml-carousel-item cml-70c0e066">
+                <view class="carousel-item  cml-base cml-view cml-70c0e066" style="background-color:#EAEAEF"></view>
+            </swiper-item>
+        </swiper></view>
+        </view>
+        <view class="advert  cml-base cml-view cml-70c0e066">
+            <text class="text  cml-base cml-text cml-70c0e066"></text>
+        </view>
+        
+                
+                
+                
+                
+                
+        
+            
+                
+            
+        
+    </cml-buildin-scroller></view>
+</view>
